@@ -87,4 +87,5 @@ async function testConnection() {
 }
 
 // Run the test
-testConnection();
+testConnection();git fetch origin
+git merge origin/main --allow-unrelated-histories
